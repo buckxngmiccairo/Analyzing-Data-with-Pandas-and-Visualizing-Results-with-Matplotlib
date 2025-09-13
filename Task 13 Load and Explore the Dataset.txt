@@ -1,0 +1,3 @@
+# Clean dataset (drop or fill NA if necessary)
+df = df.dropna()
+print("✅ Cleaned dataset shape:", df.shape)

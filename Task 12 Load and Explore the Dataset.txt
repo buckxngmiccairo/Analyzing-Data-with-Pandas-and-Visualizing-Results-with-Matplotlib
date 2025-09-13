@@ -1,0 +1,7 @@
+# Check structure
+print("Dataset Info:")
+print(df.info())
+
+# Check missing values
+print("\nMissing values:")
+print(df.isnull().sum())

@@ -1,0 +1,2 @@
+# Display first 5 rows
+df.head()
