@@ -1,0 +1,14 @@
+# Try-except block for error handling when loading dataset
+try:
+    # Option 1: Load CSV (replace 'your_dataset.csv' with actual file)
+    # df = pd.read_csv("your_dataset.csv")
+
+    # Option 2: Use Iris dataset from seaborn for demonstration
+    df = sns.load_dataset("iris")
+
+    print("✅ Dataset loaded successfully!")
+
+except FileNotFoundError:
+    print("❌ Error: File not found. Please check the path.")
+except Exception as e:
+    print(f"❌ Error: {e}")
