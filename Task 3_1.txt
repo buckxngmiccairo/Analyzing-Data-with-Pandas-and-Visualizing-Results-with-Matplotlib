@@ -1,0 +1,8 @@
+plt.figure(figsize=(8,5))
+plt.plot(df.index, df["sepal_length"], label="Sepal Length")
+plt.plot(df.index, df["petal_length"], label="Petal Length")
+plt.title("Line Chart: Sepal vs Petal Length")
+plt.xlabel("Index")
+plt.ylabel("Length (cm)")
+plt.legend()
+plt.show()

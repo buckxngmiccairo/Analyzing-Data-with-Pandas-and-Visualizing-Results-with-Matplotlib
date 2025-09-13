@@ -1,0 +1,6 @@
+plt.figure(figsize=(7,5))
+grouped.plot(kind="bar", color=["#4c72b0", "#55a868", "#c44e52"])
+plt.title("Average Petal Length per Species")
+plt.xlabel("Species")
+plt.ylabel("Petal Length (cm)")
+plt.show()

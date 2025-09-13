@@ -1,0 +1,7 @@
+plt.figure(figsize=(7,5))
+sns.scatterplot(x="sepal_length", y="petal_length", hue="species", data=df, palette="deep")
+plt.title("Scatter Plot: Sepal Length vs Petal Length")
+plt.xlabel("Sepal Length (cm)")
+plt.ylabel("Petal Length (cm)")
+plt.legend(title="Species")
+plt.show()
