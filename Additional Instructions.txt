@@ -1,0 +1,20 @@
+✅ Dataset Suggestions
+Instruction: “You can use publicly available datasets … The Iris dataset can be accessed via sklearn.datasets.load_iris().”
+What I did: Used the Iris dataset (via seaborn.load_dataset("iris")).
+✔️ Requirement satisfied.
+🔹 Note: I used seaborn instead of sklearn.datasets.load_iris() because it loads directly into a Pandas DataFrame (easier to analyze). If you want, I can also show you the sklearn version.
+
+✅ Plot Customization
+Instruction: “Customize the plots using matplotlib … add titles, axis labels, legends. Use seaborn for styles.”
+What I did:
+All plots include titles, axis labels, and legends.
+Used seaborn for the scatter plot (better style, color-coded by species).
+✔️ Requirement satisfied.
+
+✅ Error Handling
+Instruction: “Handle possible errors during file reading (file not found, missing data, incorrect types).”
+What I did:
+Wrapped dataset loading in a try-except block → handles FileNotFoundError and general exceptions.
+Checked for missing values with df.isnull().sum().
+Cleaned dataset with .dropna().
+✔️ Requirement satisfied.
