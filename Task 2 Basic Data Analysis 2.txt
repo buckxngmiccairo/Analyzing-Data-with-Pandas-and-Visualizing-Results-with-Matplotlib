@@ -1,0 +1,4 @@
+# Grouping example: Average petal length per species
+grouped = df.groupby("species")["petal_length"].mean()
+print("Average Petal Length per Species:")
+print(grouped)
